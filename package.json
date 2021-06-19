@@ -1,6 +1,6 @@
 {
-  "name": "pantherswap-frontend-dex",
-  "description": "PantherSwap Dex Interface",
+  "name": "eveswap-frontend-dex",
+  "description": "EveSwap Dex Interface",
   "homepage": ".",
   "private": true,
   "dependencies": {
