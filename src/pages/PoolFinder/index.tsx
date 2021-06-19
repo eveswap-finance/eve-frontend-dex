@@ -1,6 +1,6 @@
-import { Currency, ETHER, JSBI, TokenAmount } from '@pantherswap-libs/sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from '@eveswap-libs/sdk'
 import React, { useCallback, useEffect, useState } from 'react'
-import { Button, ChevronDownIcon, AddIcon, CardBody, Text } from '@pantherswap-libs/uikit'
+import { Button, ChevronDownIcon, AddIcon, CardBody, Text } from '@eveswap-libs/uikit'
 import CardNav from 'components/CardNav'
 import { LightCard } from 'components/Card'
 import { AutoColumn, ColumnCenter } from 'components/Column'

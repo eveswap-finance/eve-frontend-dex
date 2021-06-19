@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from '@pantherswap-libs/sdk'
+import { CurrencyAmount, ETHER, JSBI } from '@eveswap-libs/sdk'
 import { MIN_ETH } from '../constants'
 
 /**

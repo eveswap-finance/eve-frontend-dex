@@ -1,10 +1,10 @@
-import { MenuEntry } from '@pantherswap-libs/uikit'
+import { MenuEntry } from '@eveswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://pantherswap.com/',
+    href: 'https://eveswap.finance',
   },
   {
     label: 'Trade',
@@ -24,37 +24,37 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://pantherswap.com/farms',
+    href: 'https://eveswap.finance/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://pantherswap.com/pools',
+    href: 'https://eveswap.finance/pools',
   },
   {
-    label: 'Jungles',
-    icon: 'JungleIcon',
-    href: 'https://pantherswap.com/jungles',
+    label: 'Eden',
+    icon: 'EdenIcon',
+    href: 'https://eveswap.finance/eden',
   },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://pantherswap.com/lottery',
+    href: 'https://eveswap.finance/lottery',
   },
-  {
-    label: 'IPO',
-    icon: 'IfoIcon',
-    href: 'https://pantherswap.com/ipo',
-  },
+//  {
+//    label: 'IPO',
+//    icon: 'IfoIcon',
+//    href: 'https://eveswap.finance/ipo',
+//  },
   {
     label: 'Referrals',
     icon: 'ReferralIcon',
-    href: 'https://pantherswap.com/referrals',
+    href: 'https://eveswap.finance/referrals',
   },
   {
     label: 'Audits',
     icon: 'ShieldIcon',
-    href: 'https://docs.pantherswap.com/security/audits',
+    href: 'https://eveswap.finance/security/audits',
   },
   {
     label: 'Features',
@@ -62,19 +62,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Automatic LP',
-        href: 'https://docs.pantherswap.com/tokenomics/automatic-liquidity',
+        href: 'https://eveswap.finance/tokenomics/automatic-liquidity',
       },
       {
         label: 'Automatic Burning',
-        href: 'https://docs.pantherswap.com/tokenomics/automatic-burning',
+        href: 'https://eveswap.finance/tokenomics/automatic-burning',
       },
       {
         label: 'Harvest Lockup',
-        href: 'https://docs.pantherswap.com/tokenomics/harvest-lockup',
+        href: 'https://eveswap.finance/tokenomics/harvest-lockup',
       },
       {
         label: 'Anti-Whale',
-        href: 'https://docs.pantherswap.com/tokenomics/anti-whale',
+        href: 'https://eveswap.finance/tokenomics/anti-whale',
       },
     ],
   },
@@ -110,23 +110,23 @@ const config: MenuEntry[] = [
       },
       {
         label: 'DappRadar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/pantherswap',
+        href: 'https://dappradar.com/binance-smart-chain/defi/apple',
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/pantherswap',
+        href: 'https://www.coingecko.com/en/coins/apple',
       },
       {
         label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/pantherswap/',
+        href: 'https://coinmarketcap.com/currencies/apple/',
       },
       {
         label: 'LiveCoinWatch',
-        href: 'https://www.livecoinwatch.com/price/PantherSwap-PANTHER',
+        href: 'https://www.livecoinwatch.com/price/EveSwap-APPLE',
       },
       {
         label: 'Vfat',
-        href: 'https://vfat.tools/bsc/panther',
+        href: 'https://vfat.tools/bsc/apple',
       },
     ],
   },
@@ -154,28 +154,28 @@ const config: MenuEntry[] = [
   //     },
   //   ],
   // },
-  {
-    label: 'Analytics',
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: 'Overview',
-        href: 'https://pantherswap.info',
-      },
-      {
-        label: 'Tokens',
-        href: 'https://pantherswap.info/tokens',
-      },
-      {
-        label: 'Pairs',
-        href: 'https://pantherswap.info/pairs',
-      },
-      {
-        label: 'Accounts',
-        href: 'https://pantherswap.info/accounts',
-      },
-    ],
-  },
+//{
+//    label: 'Analytics',
+//    icon: 'InfoIcon',
+//    items: [
+//      {
+//        label: 'Overview',
+//        href: 'https://pantherswap.info',
+//      },
+//      {
+//        label: 'Tokens',
+//        href: 'https://pantherswap.info/tokens',
+//      },
+//      {
+//        label: 'Pairs',
+//        href: 'https://pantherswap.info/pairs',
+//      },
+//      {
+//        label: 'Accounts',
+//        href: 'https://pantherswap.info/accounts',
+//      },
+//    ],
+//  },
   // {
   //   label: 'IFO',
   //   icon: 'IfoIcon',
@@ -191,23 +191,23 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Github',
-        href: 'https://github.com/pantherswap',
+        href: 'https://github.com/eveswap',
       },
       {
         label: 'Docs',
-        href: 'https://docs.pantherswap.com',
+        href: 'https://docs.eveswap.finance',
       },
       {
         label: 'Roadmap',
-        href: 'https://docs.pantherswap.com/roadmap',
+        href: 'https://eveswap.finance/roadmap',
       },
       {
         label: 'Blog',
-        href: 'https://pantherswap.medium.com',
+        href: 'https://eveswap.medium.com',
       },
       {
         label: 'Voting',
-        href: 'https://voting.pantherswap.com/',
+        href: 'https://voting.eveswap.finance/',
       },
     ],
   },

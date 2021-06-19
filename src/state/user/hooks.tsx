@@ -1,4 +1,4 @@
-import { ChainId, Pair, Token } from '@pantherswap-libs/sdk'
+import { ChainId, Pair, Token } from '@eveswap-libs/sdk'
 import flatMap from 'lodash.flatmap'
 import { useCallback, useMemo } from 'react'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'

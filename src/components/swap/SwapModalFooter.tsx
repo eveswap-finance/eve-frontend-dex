@@ -1,6 +1,6 @@
-import { Trade, TradeType } from '@pantherswap-libs/sdk'
+import { Trade, TradeType } from '@eveswap-libs/sdk'
 import React, { useMemo, useState } from 'react'
-import { Text , Button } from '@pantherswap-libs/uikit'
+import { Text , Button } from '@eveswap-libs/uikit'
 import { Repeat } from 'react-feather'
 
 import { Field } from '../../state/swap/actions'

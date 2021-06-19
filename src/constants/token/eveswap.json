@@ -1,5 +1,5 @@
 {
-  "name": "pantherswap",
+  "name": "eveswap",
   "timestamp": "2020-08-25T15:41:29.665Z",
   "version": {
     "major": 1,
@@ -10,6 +10,15 @@
   "logoURI": "/images/coins/wbnb.png",
   "keywords": ["pancake", "default"],
   "tokens": [
+    {
+      //TODO: change address
+      "name": "Apple Token",
+      "symbol": "APPLE",
+      "address": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/APPLE.png"
+    },
     {
       "name": "WBNB Token",
       "symbol": "WBNB",

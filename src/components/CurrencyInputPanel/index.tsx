@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
-import { Currency, Pair } from '@pantherswap-libs/sdk'
-import { Button, ChevronDownIcon, Text } from '@pantherswap-libs/uikit'
+import { Currency, Pair } from '@eveswap-libs/sdk'
+import { Button, ChevronDownIcon, Text } from '@eveswap-libs/uikit'
 import styled from 'styled-components'
 import { darken } from 'polished'
 import { useCurrencyBalance } from '../../state/wallet/hooks'
