@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-unresolved
-import { PantherTheme } from '@eveswap-libs/uikit/dist/theme'
+import { EveTheme } from '@eveswap-libs/uikit/dist/theme'
 
 declare module 'styled-components' {
   /* eslint-disable @typescript-eslint/no-empty-interface */
-  export interface DefaultTheme extends PantherTheme {}
+  export interface DefaultTheme extends EveTheme {}
 }
