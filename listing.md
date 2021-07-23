@@ -27,12 +27,12 @@ If you are seeking to be added to the [Pancakeswap.finance](https://pancakeswap.
 
 ```json
 {
-"name": "PantherSwap Token",
-"symbol": "PANTHER",
+"name": "Apple Token",
+"symbol": "APPLE",
 "address": "0x1f546ad641b56b86fd9dceac473d1c7a357276b7",
 "chainId": 56,
 "decimals": 18,
-"logoURI": "/images/coins/PANTHER.png"
+"logoURI": "/images/coins/APPLE.png"
 },
 ```
 

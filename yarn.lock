@@ -2382,6 +2382,39 @@
     "@ethersproject/properties" "^5.0.7"
     "@ethersproject/strings" "^5.0.8"
 
+"@eveswap-finance/eve-swap-core@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@eveswap-finance/eve-swap-core/-/eve-swap-core-0.1.0.tgz#8e1bf0b4ea754983c103b960de97d3c0d6d2c84a"
+  integrity sha512-KrqI4LRPJOQdkB3KOpbpSA2+hNEvIlLu1JnqDWM1aalQ2AV/B6ONEZ3IysUq1np3lb3EmMeceS8fmLhC4k+sMQ==
+  dependencies:
+    truffle "^5.1.41"
+    truffle-flattener "^1.4.4"
+    truffle-hdwallet-provider "^1.0.17"
+
+"@eveswap-finance/eve-swap-sdk@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eveswap-finance/eve-swap-sdk/-/eve-swap-sdk-1.0.0.tgz#4b28a2a131397799ec1a92a54b2ab8ee1482dc89"
+  integrity sha512-bL0HfyjPufsQzzxKReRiKySg08dMRU5PXI19Jv4+/VHYL5neRb1Kbvu+3lpcaBGQd4khaLvm4EoOCRtFr+NmmA==
+  dependencies:
+    "@eveswap-finance/eve-swap-core" "^0.1.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
+"@eveswap-finance/eve-uikit@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@eveswap-finance/eve-uikit/-/eve-uikit-0.1.1.tgz#ef3d2eb67a35da1aa13579bdef1821f13ee62a98"
+  integrity sha512-R7dnFQkobhALPlUaxkj7e88+vGI7TXcbV9ng8rIrCm0dfhB/kfhuQYd9ncr0ZJfpgWvYBWzr9jrQOVVH7FC+sw==
+  dependencies:
+    "@types/lodash" "^4.14.162"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
+
 "@graphql-tools/batch-delegate@^6.2.4", "@graphql-tools/batch-delegate@^6.2.6":
   version "6.2.6"
   resolved "https://registry.yarnpkg.com/@graphql-tools/batch-delegate/-/batch-delegate-6.2.6.tgz#fbea98dc825f87ef29ea5f3f371912c2a2aa2f2c"
@@ -3044,39 +3077,6 @@
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
-
-"@pantherswap-libs/panther-swap-core@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@pantherswap-libs/panther-swap-core/-/panther-swap-core-0.1.0.tgz#f9d7025a9412452d0e14683147b8472156e6aa1f"
-  integrity sha512-55EzWpF2mCS9HEMzHsZ1QIxJ1ehshiF+SqB394Y8Nchbo+BFfPeZMka4ngYvb6uZIqwgPhEimH3XK4d+xkIruQ==
-  dependencies:
-    truffle "^5.1.41"
-    truffle-flattener "^1.4.4"
-    truffle-hdwallet-provider "^1.0.17"
-
-"@pantherswap-libs/sdk@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@pantherswap-libs/sdk/-/sdk-1.0.0.tgz#6cafaee2bd7afa4d3b9dcc1993dca3ccd1124d16"
-  integrity sha512-qhxvneNbLeheKYHpAjg5DvcUr6OWZsjMaURA6ZstJD7HnRQMD+tB5XQFRnuX7jdaXl2yIRDCLu7qKSlkr36XXA==
-  dependencies:
-    "@pantherswap-libs/panther-swap-core" "^0.1.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
-"@pantherswap-libs/uikit@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@pantherswap-libs/uikit/-/uikit-0.1.1.tgz#55e482c94df324e88254786178cf16c1028028a2"
-  integrity sha512-ymEKLfLSyD/HDq+C2PwUSbcG3DlBu7IQNutTnCwVgtpmYrK/TchfTJ4lCNG09y4kDgDoCLMwYjnTIaTYFgLN6w==
-  dependencies:
-    "@types/lodash" "^4.14.162"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
 
 "@pedrouid/iso-crypto@^1.0.0":
   version "1.0.0"
